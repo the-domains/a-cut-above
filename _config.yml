@@ -1,9 +1,20 @@
-layout_spectrum: 0.9199785
-typography_spectrum: 0.6299677
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+typography_spectrum: 0.7105263
 color:
   saturation: 0.4472246
+  brandStrength: 0.5118152
   lightness: 0.3700322
-  brandStrength: 0.6385607
   brandColors:
     - '#080A07'
     - '#006EDC'
@@ -11,4 +22,5 @@ color:
     - '#886C68'
     - '#971841'
   rhythmicContrast: 0.7083781
+layout_spectrum: 0.9199785
 name: A-cut-above
